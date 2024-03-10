@@ -1,0 +1,53 @@
+body {
+    background-color: peachpuff;
+}
+.back {
+    background-color: black;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    background: linear-gradient(to right, #fe015a 35%, rgb(22, 80, 800));
+    background-size:200% auto ;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation:gradient 3s linear infinite;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 75%;
+    }
+    50%{
+        background-position: 100% 30%;
+    }
+    100%{
+        background-position: 0% 70%;
+    }
+
+}
+textarea {
+    background-color: cadetblue;
+    border-radius: 10px;
+    border-color: lab(from yellow 25 36 47);
+}
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    background: linear-gradient(to right, #fe015a 35%, rgb(22, 80, 800));
+    background-size:200% auto ;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation:gradient 3s linear infinite;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 75%;
+    }
+    50%{
+        background-position: 100% 30%;
+    }
+    100%{
+        background-position: 0% 70%;
+    }
+}
